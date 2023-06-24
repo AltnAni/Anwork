@@ -1,0 +1,37 @@
+@media screen and (max-width : 1200px) {
+   .search_input {
+      transform: translateY(50px);
+      width: 2400px;
+   }
+
+   .img_div {
+      display: none;
+   }
+}
+
+@media screen and (max-width :1023px) {
+   header {
+      padding-bottom: 10px;
+      width: auto;
+   }
+
+   .header_top {
+      display: none;
+   }
+
+   .hiden_img {
+      display: block;
+   }
+
+   .amd_btn {
+      display: block;
+   }
+
+   .hiden_div a>img {
+      display: block;
+   }
+
+   .hiden_div i {
+      display: block;
+   }
+}
